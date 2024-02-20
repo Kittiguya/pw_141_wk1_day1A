@@ -1,45 +1,25 @@
-# replaced code with my code 
+# print("welcome to CT Rhett!")
+# name = 'Rhett'
+# print("welcome to CT" + name)
 
-# write a function that says "Welcome to CT NAME_HERE!"
-
-print("Welcome to CT David!")
-
-name = "David"
-
-print("Welcome to CT " + name + "!")
-
-print(f"Welcome to CT {name}!")
-
-# my solution 
+# print(f"welcome to CT {name}")
 
 
-def greeting(name):
-    print("Welcome to CT " + name + "!")
+def namer(f_name):
+    print(f"WELCOME WELCOME WELCOME CT {f_name}")
+    print("this will run too!")
 
-greeting("David")
+# namer("Jenequa")
+# namer("Zack")
+# namer("Rhett")
+# namer("Harrison")
+# print(namer("Adrian") + namer("Bryce"))
+print(namer("Adrian"))
+# print(namer("Adrian") == 3)
+# name2 = "Adrian"
 
-# alternative solution
 
-def greeting(name):
-    print(f"Welcome to CT {name}!")
-    return 3
-
-greeting("David")
-
-print(greeting("David") + greeting("Tom"))
-print(greeting("David") == 3)
-
-# example
-
-def adder(num1, num2):
-    return num1 + num2
-
-print(adder(5,6))
+# def adder(num1, num2):
+#     return num1 + num2
 
 # print(adder(5, 6))
-
-def hi_there(b_name):
-    print(f"Hi this is {b_name} making a change.")
-
-hi_there("Faisal")
-
