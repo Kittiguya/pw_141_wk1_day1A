@@ -12,6 +12,7 @@ print(f"Welcome to CT {name}!")
 
 # my solution 
 
+
 def greeting(name):
     print("Welcome to CT " + name + "!")
 
@@ -34,3 +35,11 @@ def adder(num1, num2):
     return num1 + num2
 
 print(adder(5,6))
+
+# print(adder(5, 6))
+
+def hi_there(b_name):
+    print(f"Hi this is {b_name} making a change.")
+
+hi_there("Faisal")
+
