@@ -23,3 +23,8 @@ print(namer("Adrian"))
 #     return num1 + num2
 
 # print(adder(5, 6))
+
+def hi_there(b_name):
+    print(f"Hi this is {b_name} making a change.")
+
+hi_there("Faisal")
